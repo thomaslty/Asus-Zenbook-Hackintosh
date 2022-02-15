@@ -34,7 +34,7 @@ cd ./download
 # download OpenCore
 mkdir ./oc && cd ./oc
 # download_github "acidanthera/OpenCorePkg" "$oc_version-RELEASE" "OpenCorePkg.zip"
-curl -o OpenCorePkg.zip https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.8/OpenCore-0.6.8-RELEASE.zip
+curl -L -o OpenCorePkg.zip https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.8/OpenCore-0.6.8-RELEASE.zip
 unzip -q -d OpenCorePkg OpenCorePkg.zip
 cd ..
 
